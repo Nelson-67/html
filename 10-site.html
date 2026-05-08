@@ -16,19 +16,19 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">Inicio</a>
+                    <a href="#hero">Inicio</a>
                 </li>
                 <li>
-                    <a href="#">Sobre</a>
+                    <a href="#sobre">Sobre</a>
                 </li>
                 <li>
-                    <a href="#">Instrumentos</a>
+                    <a href="#instrumentos">Instrumentos</a>
                 </li>
                 <li>
-                    <a href="#">Depoimentos</a>
+                    <a href="#depoimentos">Depoimentos</a>
                 </li>
                 <li>
-                    <a href="#">Contato</a>
+                    <a href="#contatos">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -36,7 +36,124 @@
 
     <!-- Conteúdo Principal -->
     <main>
-        Conteúdo Principal
+        <section id="hero">
+            <h2>O som da sua vida começa aqui</h2>
+            <p>
+                Encontre as melhores marcas de violinos, trompetes ou violoões.
+            </p>
+            <img src="enrique-farias-h71DhLze7BU-unsplash.jpg"
+                alt="Banda de Sertanejo em seu albúm usando os instrumentos musicais da Compasso Musical" width="600">
+            <br><br>
+            <a href="Ver nossas ofertas">Ver nossas ofertas</a>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre">
+            <h2>Sobre a Compasso Musical</h2>
+            <p>
+                Nossa loja nasceu da paixão pela música. Nossa missão é entregar qualidade sonora tanto para quem está
+                aprendendo os primeiros acordes quanto para músicos profissionais.
+            </p>
+            <ul>
+                <li>Todos os intrumentos são revissados por nossa equipe técnica</li>
+                <li>Garantia entendida de fábrica</li>
+                <li>Suporte de atendimento feito por músicos reais.</li>
+            </ul>
+        </section>
+
+        <!-- Seção de Instrumentos -->
+        <section id="instrumentos">
+            <h2>Cátalogo</h2>
+            <article>
+                <h3>Guitarra Elétrica StratoCaster</h3>
+                <img src="https://images.unsplash.com/photo-1642322356665-974c658cee81"
+                    alt="Guitarra Elétrica StratoCaster" width="600">
+                <p>
+                    <strong>Marca: </strong>Fender
+                </p>
+                <p>
+                    Guitarra clásssica de alta performance, ideal para rock e blues.
+                </p>
+                <p>
+                    <em>Preço: R$ 3.500,00</em>
+                </p>
+                <a href="#">Adicionar ao carrinho</a>
+            </article>
+            <article>
+                <h3>Kit de Bateria</h3>
+                <img src="https://images.unsplash.com/photo-1543443258-92b04ad5ec6b" alt="Imagem do Kit de Bateria"
+                    width="600">
+                <p>
+                    <strong>Marca: </strong>Pearl
+                </p>
+                <p>
+                    Kit de bateria completo, perfeito para bateristas de todos os níveis.
+                </p>
+                <p>
+                    <em>Preço: R$ 13.900,00</em>
+                </p>
+                <a href="#">Adicionar ao carrinho</a>
+            </article>
+        </section>
+
+        <!-- Seção de Depoimentos -->
+        <section id="depoimentos">
+            <h2>O que nossos clientes dizem</h2>
+            <blockquote>
+                <p>
+                    "A batéria chegou super rápido aqui em Cuiabá-MT e perfeitamente embalada. O som é incível."
+                </p>
+                <footer>
+                    - <cite>Douglas Nunes, baterista</cite>
+                </footer>
+            </blockquote>
+            <br>
+            <blockquote>
+                <p>
+                    "Comprei minha primeira guitarra na Compasso Musical e foi uma experiência incrível. O atendimento
+                    foi excelente e a qualidade do instrumento superou minhas expectativas."
+                </p>
+                <footer>
+                    - <cite>Maria Eduarda Ferreti, Estudante de Música</cite>
+                </footer>
+            </blockquote>
+        </section>
+
+        <!--Seção Contatos-->
+        <section id="contatos">
+            <h2>Fale Conosco</h2>
+            <p>
+                Tem dúvidas sobre algum instrumento? Mande uma mensagem ou venha nos visitar.
+            </p>
+            <address>
+                <P>Loja Física: <strong>Centro Histórico, Cuiabá-MT</strong>
+                </p>
+            </address>
+            <form action="#">
+                <label for="nome">Nome Completo</label>
+                <br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <br><br>
+                <laberl for="email">E-mail</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    <br><br>
+                    <label for="departamento">Departamento</label>
+                    <br>
+                    <select id="departamento" name="departamento">
+                        <option value="vendas">Vendas</option>
+                        <option value="suporte">Suporte Técnico</option>
+                        <option value="financeiro">Financeiro</option>
+                        <option value="sugestao">Sugestões</option>
+                    </select>
+                    <br><br>
+                    <label for="mensagem">Mensagem</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" rows="10" placeholder="Digite sua mensagem"></textarea>
+                    <br><br>
+                    <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
     </main>
 
     <!-- Rodapé do Site -->
@@ -52,19 +169,19 @@
             <h3>Mapa do Site</h3>
             <ul>
                 <li>
-                    <a href="#">Inicio</a>
+                    <a href=" #hero">Inicio</a>
                 </li>
                 <li>
-                    <a href="#">Sobre</a>
+                    <a href="#sobre">Sobre</a>
                 </li>
                 <li>
-                    <a href="#">Instrumentos</a>
+                    <a href="#instrumentos">Instrumentos</a>
                 </li>
                 <li>
-                    <a href="#">Depoimentos</a>
+                    <a href="#depoimentos">Depoimentos</a>
                 </li>
                 <li>
-                    <a href="#">Contato</a>
+                    <a href="#contatos">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -113,9 +230,11 @@
 
         <div>
             <p>
-                Copyright &copy; 2026 Compasso Musical - Todos os direitos reservados. Site desenvolvido por Nelson Aura.
+                Copyright &copy; 2026 Compasso Musical - Todos os direitos reservados. Site desenvolvido por
+                Nelson Aura.
             </p>
         </div>
     </footer>
 </body>
+
 </html>
